@@ -1,0 +1,41 @@
+section {
+    position: relative;
+    width: calc(100% - 60px);
+    height: 100%;
+    padding: 17px 20px;
+    color: #232d4b;
+    overflow-y: auto;
+  
+    .card {
+      transition: all 300ms;
+      margin-bottom: 0.5rem;
+      .favorite {
+        cursor: pointer;
+        margin-bottom: 5px;
+        &::before {
+          width: 35px;
+          height: 35px;
+          line-height: 50px;
+          display: inline-block;
+          text-align: center;
+        }
+  
+        &.active {
+          border-radius: 0.25rem;
+        }
+      }
+  
+      &:hover {
+        transform: translate(0px, -5px);
+        box-shadow: 0 5px 10px -8px rgba(0, 0, 0, 0.5);
+      }
+      .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 0rem 1rem 0rem;
+          .colorB{
+            color: #212529;
+          }
+      }
+    }
+  
+  }

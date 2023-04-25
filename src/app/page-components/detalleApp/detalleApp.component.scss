@@ -1,0 +1,113 @@
+.main {
+  width: 100%;
+  height: calc(100% - 120px);
+  font-size: 0.9rem;
+  background-color: #fff;
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 17px 20px;
+  color: #232d4b;
+  overflow-y: auto;
+
+  .bg-light {
+    background-color: #fbfbfb !important;
+  }
+
+  .back {
+    margin-bottom: 10px;
+
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.25rem;
+
+    div {
+      cursor: pointer;
+      color: #005573;
+      display: inline-block;
+    }
+  }
+  .flexAudio{
+    width: 100%;
+    display: flex;
+  }
+  .flexAudio2{
+    width: 100%;
+    display: flex;
+    &:hover {
+      color: #fff;
+      background-color: #8493be;
+      border-color: #0c0c0c;
+    }
+  }
+
+
+  .tituloAudio{
+    width: 60%;
+    border-bottom: 1px solid #cfcfcf;
+  }
+
+  .tituloAudioF{
+    width: 60%;
+    border-bottom: 1px solid #cfcfcf;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .backAudio {
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+
+  .fechaDuracionAudio{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #cfcfcf;
+  }
+
+  .pdTopB5{
+    margin: 0;
+    top: 10px;
+    position: relative;
+  }
+
+  .bord {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  .pad{
+    padding: 1rem 1rem 0rem 1rem !important;
+  }
+
+  .episode{
+    padding: 1rem 1rem 5px 1rem !important;
+  }
+  .desc{
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .pmargin{
+    margin-bottom: 5px;
+  }
+  .title {
+    //font-size: 1.4rem;
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+    padding-bottom: 6px;
+      .obliq {
+        font-style: oblique;
+      }
+  }
+  .descripcion {
+    flex: 1;
+    margin-left: 10%;
+  }
+}
+}

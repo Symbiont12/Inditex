@@ -1,0 +1,14 @@
+node_modules
+.tmp
+.sass-cache
+package-lock.json
+.idea
+coverage
+doc
+deploy
+*.log
+stats.json
+.editorconfig
+distribuir.sh
+dist
+.dockerignore

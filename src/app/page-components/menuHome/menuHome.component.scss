@@ -1,0 +1,45 @@
+section {
+    .col12 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  
+    .barra {
+      background-color: #232d4b;
+      color: #fff;
+      height: 60px;
+      padding: 0 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius: 0.25rem;
+      margin-bottom: 2px;
+  
+      .home {
+        margin-left: auto !important;
+        margin-right: 1rem;
+      }
+
+      .longitud{
+        padding: 5px !important;
+        margin-bottom: 0;
+        background-color: #8493be;
+        border: 1px solid #8493be;
+        border-radius: 1.25rem !important;
+        --bs-bg-opacity: 1;
+      }
+  
+      ~ div {
+        .barra {
+          background-color: #005573;
+  
+          .menuActive {
+  
+            background-color: #232d4b;
+  
+          }
+        }
+      }
+    }
+  }
+  

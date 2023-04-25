@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Muli;
+  src: url(../typographies/Muli/Muli-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url(../typographies/Muli/Muli-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url(../typographies/Muli/Muli-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url(../typographies/Muli/Muli-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url(../typographies/Muli/Muli-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url(../typographies/Muli/Muli-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Muli;
+  src: url(../typographies/Muli/Muli-ExtraLight.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../typographies/Lato/Lato-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../typographies/Lato/Lato-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../typographies/Lato/Lato-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../typographies/Poppins/Poppins-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../typographies/Poppins/Poppins-ExtraLight.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../typographies/Poppins/Poppins-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../typographies/Poppins/Poppins-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../typographies/Poppins/Poppins-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../typographies/Poppins/Poppins-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../typographies/Poppins/Poppins-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../typographies/Poppins/Poppins-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../typographies/Poppins/Poppins-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+/*# sourceMappingURL=fonts.css.map */
